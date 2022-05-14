@@ -60,6 +60,12 @@ git merge versionedBranchNameHere
 git push
 ```
 
+In the event that you pull a repository and a git MERGE occurs but is not needed, use this:
+
+```
+git merge --abort
+```
+
 The above command order is important, as pull the main branch will ensure the local branch is up to date before pushing merged changes to the repository.
 
 This is all for now - now let's get to work!
